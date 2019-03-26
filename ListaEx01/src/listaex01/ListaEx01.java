@@ -1,21 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package listaex01;
 
-/**
- *
- * @author jeronimo
- */
+import listaex01.Curso;
+
 public class ListaEx01 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Data d = new Data(02,01,1982);
+        
+        Curso c = new Curso("Topicos de Inteligencia Artificial", 8, d);
+        
+        System.out.println(c.toString());
+        
+        c.setNome("Programacao Web I");
+        c.setDuracao(6);
+        
+        System.out.println(c.toString());
+        
     }
     
 }

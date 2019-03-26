@@ -1,5 +1,5 @@
 
-package aula01_ex01;
+package listaex01;
 
 public class Curso {
     
