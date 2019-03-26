@@ -21,3 +21,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/ListaEx01/nbproject/private/
+/ListaEx01/build.xml
+/ListaEx01/manifest.mf
+/ListaEx01/nbproject/
