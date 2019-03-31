@@ -4,6 +4,7 @@ import listaex01.Curso;
 
 public class ListaEx01 {
 
+    /*
     public static void main(String[] args) {
         
         Data d = new Data(02,01,1982);
@@ -18,5 +19,5 @@ public class ListaEx01 {
         System.out.println(c.toString());
         
     }
-    
+    */
 }
